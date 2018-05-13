@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/score/index",
+    "pages/movie-img/index",
+    "pages/index/index",
+    "pages/celebrity/index",
+    "pages/movie-detail/movie-detail",
+    "pages/movie-more/movie-more",
+    "pages/movie-list/movie-list",
+    "pages/search/index",
+    "pages/movie-grid/movie-grid",
+    "pages/movie-rating/movie-rating",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#00f",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+}
